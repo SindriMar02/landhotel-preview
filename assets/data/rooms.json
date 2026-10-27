@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "standard",
+    "name": "Standard Room",
+    "tagline": "Spacious, with views all around",
+    "area": 25,
+    "guests": 3,
+    "price": 195,
+    "photo": "standard",
+    "amenities": [
+      "Free wifi",
+      "Breakfast included",
+      "Room service",
+      "Bathroom with shower",
+      "Coffee and tea maker",
+      "Sitting area"
+    ]
+  },
+  {
+    "slug": "superior",
+    "name": "Superior Room",
+    "tagline": "Bathrobes, slippers, more room",
+    "area": 27,
+    "guests": 3,
+    "price": 215,
+    "photo": "superior",
+    "amenities": [
+      "Free wifi",
+      "Breakfast included",
+      "Room service",
+      "Bathroom with shower",
+      "Coffee and tea maker",
+      "Sitting area"
+    ]
+  },
+  {
+    "slug": "family",
+    "name": "Family Room",
+    "tagline": "A sofa bed for two more",
+    "area": 30,
+    "guests": 5,
+    "price": 250,
+    "photo": "family",
+    "amenities": [
+      "Free wifi",
+      "Breakfast included",
+      "Room service",
+      "Bathroom with shower",
+      "Coffee and tea maker",
+      "Sitting area with sofa bed"
+    ]
+  }
+]

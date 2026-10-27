@@ -1,0 +1,18 @@
+@font-face{font-family:Gambetta;src:url('/landhotel-preview/assets/fonts/Gambetta-Light.woff2') format('woff2');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:Gambetta;src:url('/landhotel-preview/assets/fonts/Gambetta-LightItalic.woff2') format('woff2');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:Gambetta;src:url('/landhotel-preview/assets/fonts/Gambetta-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Satoshi;src:url('/landhotel-preview/assets/fonts/Satoshi-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Satoshi;src:url('/landhotel-preview/assets/fonts/Satoshi-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{
+ --paper:#F4EFE7;--paper-2:#E9E1D5;--ink:#231E1A;--ink-2:#5C5047;--oak:#6B4E36;--oak-light:#BBA68E;--night:#0B141A;--night-2:#1A2D34;--snow:#F4EFE7;--aurora:#85A27A;--sky:#437EBA;--line:rgba(35,30,26,.16);--line-night:rgba(244,239,231,.18);
+ --serif:Gambetta,Georgia,serif;--sans:Satoshi,Arial,sans-serif;
+ --wordmark:13.4vw;--display:10vw;--h1:clamp(2.75rem,6.111111vw,5.5rem);--h2:clamp(2.4rem,5vw,4.5rem);--h3:1.8rem;--fact:3.75rem;--kp:4.5rem;--body:1.05rem;--small:.875rem;--eyebrow:.72rem;--button:.8rem;--brand:1.25rem;
+ --leading-display:.9;--leading-h1:1;--leading-h2:1.02;--leading-h3:1.15;--leading-body:1.55;--leading-small:1.45;--leading-label:1.2;--leading-mark:.82;
+ --track-mark:-.02em;--track-h1:-.015em;--track-h2:-.01em;--track-body:-.005em;--track-label:.18em;--track-button:.14em;
+ --s-xs:.8rem;--s-sm:1.75rem;--s-md:6rem;--s-lg:10rem;--s-xl:16rem;--pad:1.5rem;--gutter:1.5rem;--outer:2.5rem;--max:1600px;--measure:34em;--header:76px;--hero-min:640px;--thumb-w:220px;--thumb-h:140px;--sheet-w:560px;--touch:44px;--dot:8px;--hairline:1px;--focus:2px;--focus-offset:3px;
+ --button-y:1.05rem;--button-x:1.6rem;--chip-y:.45rem;--chip-x:.7rem;--hero-copy-top:calc(var(--header) + var(--pad));--sky-height:120svh;--overlap:18%;--photo-room:4/5;--photo-intro:4/5;--photo-small:1;--card-mobile:82vw;--thumb-card:var(--s-md);
+ --ease-house:cubic-bezier(.625,.05,0,1);--dur-ui:.7s;--dur-fade:.3s;--dur-reveal:1s;--dur-header:.4s;--dur-press:.15s;--letter-delay:.012s;
+}
+@media(max-width:1023px){:root{--outer:1.25rem}}
+@media(max-width:767px){:root{--s-md:3.5rem;--s-lg:5rem;--s-xl:7rem;--header:60px;--wordmark:12.6vw;--display:15vw;--h1:2.75rem;--h2:2.4rem;--h3:1.5rem;--body:1rem;--small:.85rem;--eyebrow:.7rem;--photo-room:4/3;--sky-height:100svh}}
+:root{--service-height:5.5rem}
